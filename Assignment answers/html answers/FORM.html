@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    } 
+
+    .signup-form {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 5%;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 400px;
+    }
+
+    .signup-form h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .signup-form input[type="text"],
+    .signup-form input[type="email"],
+    .signup-form input[type="password"] {
+      width: 90%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .signup-form input[type="number"], .signup-form[type="checkbox"] {
+        width: 30%;
+        padding: 5px;
+        margin: 8px 0;
+        border-radius: 5px;
+    }
+    .signup-form button {
+      width: 90%;
+      padding: 10px;
+      margin: 8px;
+      background: #5cb85c;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .signup-form button:hover {
+      background: #4cae4c;
+    }
+    </style>
+</head>
+<body>
+    
+        
+            <form class="signup-form">
+                <h3>Sign up/Sign in</h3></tr>
+                <P>
+                   <div>
+                    Name <input type="text" name="Name" placeholder="Enter name here!" minlength="3" maxlength="20" required>
+                    Last Name <input type="text" name="Last Name" placeholder="Enter last name here" minlength="3" maxlength="20" required><br>
+                    Email <input type="text" name="Email" placeholder="Enter email here" minlenght="8" maxlength="20" required><br>
+                    Password <input type="text" name="password" placeholder="Enter password" minlength="8" maxlength="20" required><br>
+                    Confirm password <input type="text" name="confirm password" placeholder="confirm password" minlength="8" maxlength="20" required><br>
+                    Age <input type="number" name="age" placeholder="Enter age here" min="12" max="100" required>
+                    Gender <select id='gender'>
+                            <option value="choose geder here">choose here</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Transgender">Transgender</option>
+                          </select><br>
+                    <input type="checkbox"><a href="">terms and conditions</a>
+                    <button type="submit">Submit</button>
+                   </div> 
+                    
+                </P>
+               
+            </form>
+</body>
+</html
